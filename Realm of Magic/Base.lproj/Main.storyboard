@@ -40,10 +40,10 @@
             </objects>
             <point key="canvasLocation" x="657.25190839694653" y="-190.14084507042256"/>
         </scene>
-        <!--View Controller-->
+        <!--Character Details View Controller-->
         <scene sceneID="6wY-WA-szM">
             <objects>
-                <viewController id="B2L-mb-ngv" sceneMemberID="viewController">
+                <viewController id="B2L-mb-ngv" customClass="CharacterDetailsViewController" customModule="Realm_of_Magic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ceu-PJ-yPI">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -54,7 +54,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vBn-QI-SHM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1648" y="-174"/>
+            <point key="canvasLocation" x="1616" y="-190"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="3NQ-f6-lAd">
