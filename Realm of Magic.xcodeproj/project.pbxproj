@@ -48,9 +48,6 @@
 		2B3FC531290A41580076DF0D = {
 			isa = PBXGroup;
 			children = (
-				2B3FC5BB290BC7540076DF0D /* CharacterController.swift */,
-				2B3FC5B9290BC6660076DF0D /* CharacterModel.swift */,
-				2B3FC5B7290BC5340076DF0D /* CharacterDetailsViewController.swift */,
 				2B3FC551290A42CC0076DF0D /* .gitignore */,
 				2B3FC53C290A41580076DF0D /* Realm of Magic */,
 				2B3FC53B290A41580076DF0D /* Products */,
@@ -75,6 +72,9 @@
 				2B3FC546290A415B0076DF0D /* Assets.xcassets */,
 				2B3FC548290A415B0076DF0D /* LaunchScreen.storyboard */,
 				2B3FC54B290A415B0076DF0D /* Info.plist */,
+				2B3FC5BB290BC7540076DF0D /* CharacterController.swift */,
+				2B3FC5B9290BC6660076DF0D /* CharacterModel.swift */,
+				2B3FC5B7290BC5340076DF0D /* CharacterDetailsViewController.swift */,
 			);
 			path = "Realm of Magic";
 			sourceTree = "<group>";
