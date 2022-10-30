@@ -14,6 +14,9 @@
 		2B3FC547290A415B0076DF0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B3FC546290A415B0076DF0D /* Assets.xcassets */; };
 		2B3FC54A290A415B0076DF0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3FC548290A415B0076DF0D /* LaunchScreen.storyboard */; };
 		2B3FC552290A42CC0076DF0D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2B3FC551290A42CC0076DF0D /* .gitignore */; };
+		2B3FC5B8290BC5340076DF0D /* CharacterDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FC5B7290BC5340076DF0D /* CharacterDetailsViewController.swift */; };
+		2B3FC5BA290BC6660076DF0D /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FC5B9290BC6660076DF0D /* CharacterModel.swift */; };
+		2B3FC5BC290BC7540076DF0D /* CharacterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FC5BB290BC7540076DF0D /* CharacterController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		2B3FC549290A415B0076DF0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B3FC54B290A415B0076DF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B3FC551290A42CC0076DF0D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2B3FC5B7290BC5340076DF0D /* CharacterDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsViewController.swift; sourceTree = "<group>"; };
+		2B3FC5B9290BC6660076DF0D /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
+		2B3FC5BB290BC7540076DF0D /* CharacterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				2B3FC546290A415B0076DF0D /* Assets.xcassets */,
 				2B3FC548290A415B0076DF0D /* LaunchScreen.storyboard */,
 				2B3FC54B290A415B0076DF0D /* Info.plist */,
+				2B3FC5BB290BC7540076DF0D /* CharacterController.swift */,
+				2B3FC5B9290BC6660076DF0D /* CharacterModel.swift */,
+				2B3FC5B7290BC5340076DF0D /* CharacterDetailsViewController.swift */,
 			);
 			path = "Realm of Magic";
 			sourceTree = "<group>";
@@ -143,6 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B3FC542290A41580076DF0D /* ViewController.swift in Sources */,
+				2B3FC5BC290BC7540076DF0D /* CharacterController.swift in Sources */,
+				2B3FC5BA290BC6660076DF0D /* CharacterModel.swift in Sources */,
+				2B3FC5B8290BC5340076DF0D /* CharacterDetailsViewController.swift in Sources */,
 				2B3FC53E290A41580076DF0D /* AppDelegate.swift in Sources */,
 				2B3FC540290A41580076DF0D /* SceneDelegate.swift in Sources */,
 			);
