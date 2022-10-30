@@ -11,7 +11,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     @IBOutlet weak var tableView: UITableView!
     
-    var chosenCharacter = 0
+    var characterIndex = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,15 +37,18 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         // On select, change view controller scene
         performSegue(withIdentifier: "toDetailsViewController", sender: nil)
         // Update global var
-        chosenCharacter = indexPath.row
-        print("chosenCharacter: \(chosenCharacter)")
+        characterIndex = indexPath.row // int
+        print("chosenCharacter: \(characterIndex)")
     }
     
     // Controls the segue to the details view
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // The segue identifier set by didSelectRowAt 
         if segue.identifier == "toDetailsViewController" {
-            let destinationVC = segue.destination as! CharacterDetailsViewController
-            destinationVC.chosenCharacter = CharacterController.shared.charactersArray[chosenCharacter]
+            let destination = segue.destination as! CharacterDetailsViewController // destination is the CharacterDetailsViewController
+            // Pass the indexPath of the chosen character to the CharacterDetailsViewController
+            destination.chosenCharacter = CharacterController.shared.charactersArray[characterIndex]
+            // CharacterDetailsViewController now has data
         }
     }
 }
